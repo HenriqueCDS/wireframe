@@ -1,0 +1,57 @@
+@media(max-width: 1200px) {
+   .S-hero .text{
+        max-width: 50%;
+   }
+
+}
+
+@media(max-width: 991px) {
+    .S-hero .container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .S-hero .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+        margin-bottom: 2.5rem;
+        text-align: left;
+   }
+    .S-hero .text h1{
+        text-align: center;
+    }
+    .S-hero .text p{
+        text-align: center;
+    }
+ 
+
+}
+
+@media(max-width: 768px) {
+   
+    
+}
+
+@media(max-width: 600px) {
+  
+    
+}
+
+@media(max-width: 480px) {
+    .S-hero {
+        padding: 3rem 0rem;    
+    }
+    .S-hero .text p {
+        margin-bottom: 1.8rem;
+    }
+
+    h1{
+        font-size: 3rem
+    }
+    .S-hero  .image {
+        height: 15rem;
+        max-width: 6.25rem;
+    }
+}

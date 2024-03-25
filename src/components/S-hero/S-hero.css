@@ -1,0 +1,38 @@
+.S-hero{
+    padding: 4.5rem 0rem;
+}
+.S-hero .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.S-hero .text{
+    width: 100%;
+    max-width: 640px;
+}
+.S-hero .text h1{
+    margin-bottom: 20px;
+}
+.S-hero .text p{
+    margin-bottom: 56px;
+    max-width: 30.5rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    color: var(--gray-color-300);
+
+}
+.S-hero .text button{
+   padding: 1.25 2.5rem;
+
+}
+.S-hero .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    max-width: 30.5rem;
+    height: 30rem;
+    background-color: var(--gray-color-800);
+}
