@@ -1,0 +1,40 @@
+@media(max-width: 1200px) {
+    .card{
+        width: 31%;
+    }
+}
+
+@media(max-width: 991px) {
+    .card {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        padding: 3rem;
+        margin-bottom: 2rem;
+      
+    }
+
+    .card:last-child {
+        margin-bottom: 0;
+    }
+
+    .card .info {
+        max-width: 100%;
+        margin-top: 2rem;
+    }
+}
+
+@media(max-width: 768px) {
+
+    
+}
+
+@media(max-width: 600px) {
+
+    
+}
+
+@media(max-width: 480px) {
+   
+   
+}

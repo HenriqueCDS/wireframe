@@ -1,5 +1,5 @@
 
-import image from "../../assets/Vector-S-hero.svg";
+import image from "../../assets/img-card.svg";
 import "./S-hero.css";
 import "./S-heroResponsive.css";
 export default function SHero() {
@@ -17,7 +17,7 @@ export default function SHero() {
                 <button className="btn-primary">Fazer parte da lista de espera</button>
             </div>
             <div className="image">
-                <img src={image} />
+                <img src={image} alt="banner" />
             </div>
         </div>
        </section>

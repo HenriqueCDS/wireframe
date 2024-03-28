@@ -1,0 +1,87 @@
+@media(max-width: 1200px) {
+    .card-featured .all-cards{
+        width: 100%;
+    }
+
+    .card-featured .section-area .all-images{
+        gap: 1rem 2%;
+
+    }
+    .card-featured .section-area .all-images .image{
+        width: 23.5%;
+        
+    }
+}
+
+@media(max-width: 991px) {
+    .card-featured .all-cards{
+        flex-direction: column;
+
+    }
+
+}
+
+@media(max-width: 768px) {
+
+    
+}
+
+@media(max-width: 600px) {
+    .card-featured .section-area .top{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .card-featured .section-area .top .title{
+        margin-bottom: 1.25rem;
+    }
+    .card-featured .section-area .top .title h2,p{
+        text-align: center;
+        
+    }
+    .card-featured .section-area .top .title h2{
+        margin-bottom: .5rem;
+    }
+    
+}
+
+@media(max-width: 480px) {
+   
+    .card-featured {
+        padding: 4rem 0;
+    }
+
+    .card-featured .title p {
+        text-align: center;
+        max-width: 80%;
+    }
+
+    .card-featured .main-area {
+        padding-bottom: 4rem;
+    }
+
+    .card-featured .section-area {
+        margin-top: 4rem;
+    }
+
+    .card-featured .section-area{
+        margin-top: 2rem;
+    }
+    .card-featured .section-area .top{
+        margin-top: 2rem;
+    }
+   .card-featured .section-area .top p{
+        margin: 0 auto;
+    }
+    .card-featured .section-area .all-images{
+        gap: 0.5rem 2%;
+
+    }
+    .card-featured .section-area .all-images .image{
+        width: 49%;
+        
+    }
+
+
+
+}

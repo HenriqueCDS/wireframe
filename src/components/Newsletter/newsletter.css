@@ -1,0 +1,40 @@
+.newsletter{
+    padding: 9.5rem 0rem;
+    background-color: var(--gray-color-200);
+}
+
+.newsletter .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.newsletter h2{
+    margin-bottom: 1.375rem;
+    text-align: center;
+
+}
+
+.newsletter p{
+    text-align: center;
+    max-width: 43.375rem;
+    color: var(--white-colors-text);
+    margin-bottom: 2.5rem;
+}
+
+
+.newsletter .btn-primary{
+    padding: 1rem 2.5rem;
+
+}
+
+@media(max-width: 480px) {
+    .newsletter{
+        padding: 2rem 0;
+    }
+    .newsletter h2{
+        font-size: 3rem;
+    
+    }
+}

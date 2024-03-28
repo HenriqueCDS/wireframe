@@ -1,3 +1,67 @@
 .card-featured{
-    background-color: var( --gray-color-100);
+    background-color: var(--gray-color-100);
+    padding: 6.5rem;
+    padding-bottom: 7.5rem;
+}
+
+.card-featured .main-area{
+    border-bottom: .0625rem solid rgb(255,255,255,0.25);
+    padding-bottom: 7.8rem;
+
+}
+
+.card-featured .title{
+    display: flex;
+    flex-direction: column;
+}
+.card-featured .title p{
+    margin-top: .5rem;
+}
+
+.card-featured .title.center{
+    align-items: center;
+
+}
+
+.card-featured p{
+    color:var(--white-colors-text);
+}
+
+.card-featured .all-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.card-featured .section-area{
+    margin-top: 7rem;
+}
+
+.card-featured .section-area .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+.card-featured .section-area .all-images{
+    display: flex;
+    justify-content: space-between ;
+    flex-wrap: wrap;
+    gap: 2rem;
+  
+}
+.card-featured .section-area .all-images .image{
+ 
+    background-color: var(--gray-color-300);
+    width: 100%;
+    max-width: 11rem;
+    height: 7rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    transition: transform .3s;
+
 }

@@ -1,14 +1,16 @@
 import icon from '../../../assets/ico-icon-circle.svg';
+import './Card.css';
+import './CardResponsive.css';
 export default function Card(props) {
  
     let color = props.white ? 'card white' : 'card';
 
     return(
-        <div className="card">
+        <div className={color}>
             <div className='icon'>
                 <img src={icon}/>
             </div>
-            <h1>{color} </h1>
+     
     
             <div className='info'>
                 <h3>Título</h3>
