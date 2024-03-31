@@ -7,7 +7,8 @@ import img from "../../assets/img-card.svg";
 
 export default function CardFeatured() {
     return(
-        <section className="card-featured">
+        <section className="card-featured" data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom">
             <div className="container">
                 <div className="main-area">
                     <div className="title center">

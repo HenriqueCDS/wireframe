@@ -54,3 +54,28 @@ footer main nav .item ul li a{
     color: var(--white-colors-text);
 
 }
+footer main nav .item:last-child ul li a span{
+    margin-left: .5rem;
+
+}
+footer main nav .item:last-child ul li a{
+    display: flex;
+    align-items: center;
+}
+footer .copy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5625rem;
+}
+footer .copy p{
+    color: var(--white-colors-text);
+}
+footer .copy .group {
+    display: flex;
+    align-items: center;
+}
+footer .copy .group span{
+    color: var(--white-colors-text);
+    margin-right: .5rem;
+}

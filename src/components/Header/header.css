@@ -1,5 +1,5 @@
 .container-header{ 
-
+    position: fixed;
     background-color: var(--gray-color-800);
     width: 100% ; 
   

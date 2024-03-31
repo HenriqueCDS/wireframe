@@ -1,5 +1,6 @@
 
-import css from "./footer.css";
+import "./footer.css";
+import "./footerResponsive.css";
 import logo from "../../assets/logoFooter.svg";
 import iconInsta from "../../assets/bx_bxl-instagram.svg";
 import iconLinked from "../../assets/bx_bxl-linkedin.svg";

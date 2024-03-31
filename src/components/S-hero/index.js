@@ -5,7 +5,7 @@ import "./S-heroResponsive.css";
 export default function SHero() {
     return (
        <section className="S-hero">
-        <div className="container">
+        <div className="container"  data-aos-offset="300">
             <div className="text">
                 <h1>
                     Front-end descomplicado e direto ao ponto!  
